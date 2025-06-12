@@ -262,6 +262,7 @@ i:hover {
     border: solid grey 10px;
     background-color: grey;
     border-radius: 20px;
+    text-align: center;
 }
 #inputValue {
     border-radius: 10px;
@@ -286,6 +287,7 @@ i:hover {
     font-size: 2em;
     text-align: center;
     padding: 5px;
+    font-weight: bold;
 }
 #toUnit {
     border-radius: 10px;
@@ -310,4 +312,7 @@ i:hover {
 #lc-btn:hover {
     background-color: rgba(156, 218, 243, 0.76);
     cursor: pointer;
+}
+.bmi-div {
+    margin:5px;
 }

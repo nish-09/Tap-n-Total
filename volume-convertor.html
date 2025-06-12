@@ -18,7 +18,7 @@
             <li><a href="simple-calculator.html">Simple Calculator</a></li>
             <li><a href="length-convertor.html">Length Convertor</a></li>
             <li><a href="volume-convertor.html">Volume Convertor</a></li>
-            <li><a href="scientific-calculator.html">Scientific Calculator</a></li>
+            <li><a href="temperature-conversions.html">Temperature Conversions</a></li>
             <li><a href="weight-convertor.html">Weight Convertor</a></li>
             <li><a href="speed-conversions.html">Speed Conversions</a></li>
             <li><a href="time-conversions.html">Time Conversions</a></li>
@@ -32,6 +32,26 @@
         <p>The Volume Converter helps you convert between common volume units such as liters, milliliters, gallons, and
             cups. Whether you're working on a recipe or a science project, this tool offers quick and accurate
             conversions for all your volume-related needs.</p>
+    </div>
+    <div id="outermost-lc">
+        <div id="converter">
+            <input type="number" id="inputValue" placeholder="Enter value" />
+            <select id="fromUnit">
+            <option value="l">Litre (l)</option>
+          <option value="ml">Mililitre (ml)</option>
+          <option value="m3">Cubic Metre (m<sup>3</sup>)</option>
+          <option value="cm3">Cubic Centimetre(cm<sup>3</sup>)</option>
+            </select>
+            <span id="to">To</span>
+            <select id="toUnit">
+            <option value="l">Litre (l)</option>
+          <option value="ml">Mililitre (ml)</option>
+          <option value="m3">Cubic Metre (m<sup>3</sup>)</option>
+          <option value="cm3">Cubic Centimetre(cm<sup>3</sup>)</option>
+          </select>
+          <button id="lc-btn">Convert</button>
+        </div>
+        <div class="result-lc" id="result"></div>
     </div>
     <footer>
         <div class="about-us">

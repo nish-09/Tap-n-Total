@@ -18,7 +18,7 @@
             <li><a href="simple-calculator.html">Simple Calculator</a></li>
             <li><a href="length-convertor.html">Length Convertor</a></li>
             <li><a href="volume-convertor.html">Volume Convertor</a></li>
-            <li><a href="scientific-calculator.html">Scientific Calculator</a></li>
+            <li><a href="temperature-conversions.html">Temperature Conversions</a></li>
             <li><a href="weight-convertor.html">Weight Convertor</a></li>
             <li><a href="speed-conversions.html">Speed Conversions</a></li>
             <li><a href="time-conversions.html">Time Conversions</a></li>
@@ -31,6 +31,32 @@
         <h1>Time Convertor</h1>
         <p>The Time Converter makes it easy to convert between seconds, minutes, hours, days, and even weeks. It’s a
             helpful tool for schedules, planning, or any situation where accurate time calculation is important.</p>
+    </div>
+    <div id="outermost-lc">
+        <div id="converter">
+            <input type="number" id="inputValue" placeholder="Enter value" />
+            <select id="fromUnit">
+            <option value="yrs">Years</option>
+            <option value="month">Months</option>
+            <option value="week">Weeks</option>
+            <option value="day">Days</option>
+          <option value="hrs">Hours</option>
+          <option value="min">Minutes</option>
+          <option value="sec">Seconds</option>
+            </select>
+            <span id="to">To</span>
+            <select id="toUnit">
+            <option value="yrs">Years</option>
+            <option value="month">Months</option>
+            <option value="week">Weeks</option>
+            <option value="day">Days</option>
+          <option value="hrs">Hours</option>
+          <option value="min">Minutes</option>
+          <option value="sec">Seconds</option>
+          </select>
+          <button id="lc-btn">Convert</button>
+        </div>
+        <div class="result-lc" id="result"></div>
     </div>
     <footer>
         <div class="about-us">

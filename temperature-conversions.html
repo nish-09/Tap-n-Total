@@ -18,7 +18,7 @@
             <li><a href="simple-calculator.html">Simple Calculator</a></li>
             <li><a href="length-convertor.html">Length Convertor</a></li>
             <li><a href="volume-convertor.html">Volume Convertor</a></li>
-            <li><a href="scientific-calculator.html">Scientific Calculator</a></li>
+            <li><a href="temperature-conversions.html">Temperature Conversions</a></li>
             <li><a href="weight-convertor.html">Weight Convertor</a></li>
             <li><a href="speed-conversions.html">Speed Conversions</a></li>
             <li><a href="time-conversions.html">Time Conversions</a></li>
@@ -28,10 +28,26 @@
         </ul>
     </div>
     <div class="description">
-        <h1>Scientific-Calculator</h1>
-        <p>The Scientific Calculator is a powerful tool built for advanced calculations including trigonometry,
-            logarithms, exponentials, and more. Designed for students and professionals alike, it provides precision and
-            functionality in an easy-to-use interface.</p>
+        <h1>Temperature Conversion</h1>
+        <p> The Temperature Conversion tool allows users to easily switch between Celsius, Fahrenheit, and Kelvin. Whether you're a student, traveler, or working on scientific data, this tool provides quick and accurate conversions. With a clean interface and responsive design, converting temperatures is now just a click away—making it convenient for everyday use or advanced calculations.</p>
+    </div>
+    <div id="outermost-lc">
+        <div id="converter">
+            <input type="number" id="inputValue" placeholder="Enter value" />
+            <select id="fromUnit">
+            <option value="C">Celcius</option>
+          <option value="F">Fahrenheit</option>
+          <option value="K">Kelvin</option>
+            </select>
+            <span id="to">To</span>
+            <select id="toUnit">
+            <option value="C">Celcius</option>
+          <option value="F">Fahrenheit</option>
+          <option value="K">Kelvin</option>
+          </select>
+          <button id="lc-btn">Convert</button>
+        </div>
+        <div class="result-lc" id="result"></div>
     </div>
     <footer>
         <div class="about-us">

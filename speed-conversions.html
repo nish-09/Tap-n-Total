@@ -18,7 +18,7 @@
             <li><a href="simple-calculator.html">Simple Calculator</a></li>
             <li><a href="length-convertor.html">Length Convertor</a></li>
             <li><a href="volume-convertor.html">Volume Convertor</a></li>
-            <li><a href="scientific-calculator.html">Scientific Calculator</a></li>
+            <li><a href="temperature-conversions.html">Temperature Conversions</a></li>
             <li><a href="weight-convertor.html">Weight Convertor</a></li>
             <li><a href="speed-conversions.html">Speed Conversions</a></li>
             <li><a href="time-conversions.html">Time Conversions</a></li>
@@ -33,6 +33,30 @@
             second, and more. Whether you're comparing vehicle speeds or solving physics problems, this tool makes
             conversions seamless.</p>
     </div>
+    <div id="outermost-lc">
+        <div id="converter">
+            <input type="number" id="inputValue" placeholder="Enter value" />
+            <select id="fromUnit">
+            <option value="km/hr">Kilometer/hr</option>
+            <option value="km/s">Kilometer/second</option>
+          <option value="km/min">Kilometer/minute</option>
+          <option value="m/s">Meter/second</option>   
+          <option value="m/min">Meter/minute</option>
+          <option value="m/hr">Meter/hr</option>
+            </select>
+            <span id="to">To</span>
+            <select id="toUnit">
+            <option value="km/hr">Kilometer/hr</option>
+            <option value="km/s">Kilometer/second</option>
+          <option value="km/min">Kilometer/minute</option>
+          <option value="m/s">Meter/second</option>   
+          <option value="m/min">Meter/minute</option>
+          <option value="m/hr">Meter/hr</option>
+          </select>
+          <button id="lc-btn">Convert</button>
+        </div>
+        <div class="result-lc" id="result"></div>
+    </div>
     <footer>
         <div class="about-us">
             <a href="about-us.html"><h2>About Us</h2></a>
@@ -46,6 +70,7 @@
             <a href="https://instagram.com/nishitparikh_" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://github.com/nish-09" target="_blank"><i class="fab fa-github"></i></a>
         </div>
+        
     </footer>
 </body>
 
