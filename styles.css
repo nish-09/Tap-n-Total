@@ -28,15 +28,6 @@ nav {
     padding: 0px 20px;
     box-sizing: border-box;
 }
-
-#theme-toggle {
-    padding: 2px;
-    margin-left: auto;
-    background-color: #003366;
-    color: aliceblue;
-    border-style: none;
-    font-size: 0.8em;
-}
 .options {
     font-family: "Darumadrop One", sans-serif;
     font-weight: 400;
@@ -74,11 +65,13 @@ footer {
     flex: 1;
     font-size: 1em;
     margin-right: 2%;
+    margin-left: 2%;
 }
 .contact-us {
     flex: 1;
     font-size: 1em;
     margin-left: 2%;
+    margin-right: 2%;
 }
 
 .divider {
@@ -98,4 +91,22 @@ i:hover{
     transform: scale(1.1);
     transition: transform 0.3s ease, background-color 0.3s ease;
     background-color: #88b9e7;
+}
+.description {
+    margin:0;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-color: #a6c9eca9;
+    border: solid rgba(83, 140, 194, 0.808);
+}
+.description h1{
+    font-family: "Darumadrop One", sans-serif;
+    font-weight: 400;
+}
+.description p{
+    font-size: 1.5em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
