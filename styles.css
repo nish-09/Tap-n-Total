@@ -62,13 +62,15 @@ footer {
     margin: 0;
 }
 
-.about-us , .contact-us{
+.about-us,
+.contact-us {
     flex: 1;
     font-size: 1em;
     margin-right: 2%;
     margin-left: 2%;
     transition: all 0.3s ease-in-out;
 }
+
 i {
     font-size: 2em;
     margin: 0 10px;
@@ -84,7 +86,9 @@ i:hover {
     transition: transform 0.3s ease, background-color 0.3s ease;
     background-color: #88b9e7;
 }
-
+.options a:visited{
+    background-color: #003366;
+} 
 .description {
     margin: 0;
     padding: 5px;
@@ -119,7 +123,121 @@ i:hover {
     text-decoration: none;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
-.about-us:hover , .contact-us:hover{
-    text-decoration: underline;
+.about-us a:visited, .contact-us a:visited {
+    color: black;
+}
+
+.about-us:hover,
+.contact-us:hover {
+    text-decoration: underline white;
     font-size: 1.1em;
+}
+
+#simple-calculator {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#outermost-sc {
+    height: auto;
+    width: auto;
+    margin: 10%;
+    border: solid rgb(75, 72, 72) 5px;
+    background-color: grey;
+    border-radius: 20px;
+    max-height: 600px;
+    max-width: 600px;
+}
+
+#result-sc {
+    height: auto;
+    width: auto;
+    border: solid rgb(221, 216, 216) 4px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 20px;
+}
+
+#display-sc {
+    height: auto;
+    width: auto;
+    border: solid rgb(75, 72, 72) 2px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px;
+    align-items: stretch;
+    min-height: 6px;
+    flex-direction: column;
+    background-color: rgb(162, 204, 233);
+}
+
+#clear-btn {
+    height: 50px;
+    width: 50px;
+    flex: 0 0 auto;
+    border: solid black;
+    border-radius: 5px;
+    background-color: rgba(248, 15, 15, 0.808);
+    color: white;
+    font-size: 1em;
+    padding: 5px 10px;
+}
+
+#clear-btn:hover {
+    cursor: pointer;
+    background-color: rgba(248, 15, 15, 0.384);
+}
+
+#buttons {
+    height: auto;
+    width: auto;
+    background-color: rgb(221, 216, 216);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#btn-r1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(133, 196, 241);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-size: 1.8em;
+}
+
+.btn:hover {
+    background-color: rgb(233, 188, 40);
+}
+
+#btn-r2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+#btn-r3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+#btn-r4 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
 }
