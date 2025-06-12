@@ -86,9 +86,11 @@ i:hover {
     transition: transform 0.3s ease, background-color 0.3s ease;
     background-color: #88b9e7;
 }
-.options a:visited{
+
+.options a:visited {
     background-color: #003366;
-} 
+}
+
 .description {
     margin: 0;
     padding: 5px;
@@ -123,7 +125,9 @@ i:hover {
     text-decoration: none;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
-.about-us a:visited, .contact-us a:visited {
+
+.about-us a:visited,
+.contact-us a:visited {
     color: black;
 }
 
@@ -240,4 +244,70 @@ i:hover {
     flex-wrap: wrap;
     padding: 10px;
     gap: 10px;
+}
+#outermost-lc{
+    margin: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#converter {
+    height: 40vh;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    margin:10px;
+    border: solid grey 10px;
+    background-color: grey;
+    border-radius: 20px;
+}
+#inputValue {
+    border-radius: 10px;
+    border:rgb(75, 72, 72);
+    height: 5vh;
+    width: auto;
+    text-align: center;
+    font-size: 1.5em;
+    cursor:auto;
+}
+#fromUnit {
+    border-radius: 10px;
+    border:rgb(75, 72, 72);
+    height: 5vh;
+    width: auto;
+    text-align: center;
+    color: rgb(105, 105, 105);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+#to{
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+}
+#toUnit {
+    border-radius: 10px;
+    border:rgb(75, 72, 72);
+    height: 5vh;
+    width: auto;
+    text-align: center;
+    color: rgb(105, 105, 105);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+#lc-btn {
+    border-radius: 10px;
+    border:rgb(75, 72, 72);
+    height: 5vh;
+    width: auto;
+    text-align: center;
+    color: rgb(105, 105, 105);
+    font-size: 1.5em;
+    background-color: rgb(156, 218, 243);
+}
+#lc-btn:hover {
+    background-color: rgba(156, 218, 243, 0.76);
+    cursor: pointer;
 }
