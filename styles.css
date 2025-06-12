@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #00336641;
+}
+nav a {
+
+    font-family: "Darumadrop One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2.5em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+nav {
+    position: relative;
+    height: 10vh;
+    width: 100vw;
+    background-color: #003366;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+#theme-toggle {
+    padding: 2px;
+    margin-left: auto;
+    background-color: #003366;
+    color: aliceblue;
+    border-style: none;
+    font-size: 0.8em;
+}
+.options {
+    font-family: "Darumadrop One", sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
